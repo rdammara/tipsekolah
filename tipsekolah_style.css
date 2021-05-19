@@ -1,0 +1,23 @@
+body{
+    background-color: #a8d0e6;
+  }
+
+/** HEADER **/
+#header-nav{
+position: absolute;
+width: 1440px;
+height: 119px;
+left: 0px;
+top: 0px;
+
+background: #24305E;
+  }
+#logo-img {
+position: absolute;
+width: 322px;
+height: 241px;
+left: 41px;
+top: -61px;
+
+background: url(Tipsekolah.com\ logo\ header\ transparent\ new.png);
+  }
