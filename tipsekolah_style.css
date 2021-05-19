@@ -21,3 +21,76 @@ top: -61px;
 
 background: url(Tipsekolah.com\ logo\ header\ transparent\ new.png);
   }
+#home-button {
+  position: absolute;
+width: 96px;
+height: 24px;
+left: 386px;
+top: 52px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-decoration: none;
+
+color: #F76C6C;
+}
+#belajar-button {
+  position: absolute;
+width: 131px;
+height: 24px;
+left: 486px;
+top: 52px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-decoration: none;
+
+
+color: #F76C6C;
+
+}
+#keuangan-button {
+  position: absolute;
+width: 151px;
+height: 19px;
+left: 610px;
+top: 52px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-decoration: none;
+
+
+color: #F76C6C;
+
+}
+#karir-button {
+  position: absolute;
+width: 104px;
+height: 26px;
+left: 754px;
+top: 52px;
+
+font-family: Public Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+text-decoration: none;
+
+
+color: #F76C6C;
+
+}
