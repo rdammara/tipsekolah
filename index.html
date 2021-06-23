@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -34,18 +38,28 @@
             <a href="https://collegeinfogeek.com/resources/" id="lainlain-button">
               LAIN-LAIN &#9660;
             </a>
-            <form onsubmit="event.preventDefault();" role="search">
-              <label for="search">Search for stuff</label>
-              <input id="search" type="search" placeholder="Search..." autofocus required />
-              <button type="submit">Go</button>    
-            </form>
+            <form action="">
+              <div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+                <div class="input-group">
+                  <input type="search" placeholder="Cari apa?" aria-describedby="button-addon1" class="form-control border-0 bg-light">
+                  <div class="input-group-append">
+                    <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
+              </div>
           </div>
         </div>
 
       </nav>>
     </header>
-      
-        Testing ye
+    <div class="jumbotron">
+      <div class="col-md-6 px-0"></div>
+        <h1 class="display-4 font-italic" id="headline">Cara Mencatat Pelajaran Secara Efektif</h1>
+        <p class="lead my-5" id="preview">Mencatat adalah bagian penting dalam perkuliahan. Inilah caranya agar catatan kalian bisa lebih efektif.</p>
+        <p class="lead mb-5"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
+      </div>
+    </div>
+        
       </div>
     </div>
   </body>

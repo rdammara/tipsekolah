@@ -124,61 +124,21 @@ color: #F76C6C;
   --bez: cubic-bezier(0, 0, 0.43, 1.49);
 }
 
-/*Setup*/
-body {background: var(--color-light); display: flex; align-items: center; justify-content: center; min-height: 100vh }
-html { box-sizing: border-box; height: 100%; font-size: 10px; } *, *::before, *::after { box-sizing: inherit; }
-
-/*Main styles*/
-form {
-  position: relative;
-  width: 217px;
-height: 39px;
-left: 1155px;
-top: 43px;
-  background: var(--color-brand);
-  border-radius: var(--rad);
-}
-input, button {
-  height: var(--height);
-  font-family: var(--font-fam);
-  border: 0;
-  color: var(--color-dark);
-  font-size: 1.8rem;
-}
-input[type="search"] {
-  width: 100%;
-  background: var(--color-light);
-  padding: 0 1.6rem;
-  border-radius: var(--rad);
-  appearance: none; /*for iOS input[type="search"] roundedness issue. border-radius alone doesn't work*/
-  transition: all var(--dur) var(--bez);
-  transition-property: width, border-radius;
-  z-index: 1;
-  position: relative;
-}
-button {
-  display: none; /* prevent being able to tab to it */
+form{
   position: absolute;
-  top: 0;
-  right: 0;
-  width: var(--btn-width);
-  font-weight: bold;
-  background: var(--color-brand);
-  border-radius: 0 var(--rad) var(--rad) 0;
+  left: 1150px;
+  top: 40px;
 }
-input:not(:placeholder-shown) {
-  border-radius: var(--rad) 0 0 var(--rad);
-  width: calc(100% - var(--btn-width));
-  + button {
-    display: block;
-  }
+.jumbotron{
+  position: relative;
+  height: 400px;
+  top: 100px;
+  background-image: url("notes.png");
+  background-repeat: no-repeat;
 }
-label {
-  position: absolute;
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
+#headline{
+color: #F76C6C;
+}
+#preview{
+  color:#fff;
 }
